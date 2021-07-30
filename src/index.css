@@ -8,16 +8,28 @@ body {
 }
 
 #stoic-quote-reader {
+
     width: 80%;
     border: 3px solid #fafafa;
-    border-bottom: none;
     margin: auto;
+
+    background-color: #363636;
+
 }
 
-#stoic-quote-reader p {
-    font-family: sans-serif;
-    font-size: 30px;
+#stoic-quote-reader #quote, #stoic-quote-reader #quoted {
+    font-family: serif;
     text-align: center;
+}
+
+
+#stoic-quote-reader #quote {
+
+    padding-right: 80px;
+    padding-left: 80px;
+
+    font-size: 30px;
+
 }
 
 #stoic-quote-reader button {
@@ -26,7 +38,10 @@ body {
     border: none;
 
     background-color: #fafafa;
-    color: #5a5a5a;
+    color: #363636;
+
+    font-family: monospace;
+    font-size: 30px;
 
 }
 
