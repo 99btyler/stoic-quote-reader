@@ -1,0 +1,35 @@
+body {
+
+    margin: 100px;
+
+    background-color: #5a5a5a;
+    color: #fafafa;
+
+}
+
+#stoic-quote-reader {
+    width: 80%;
+    border: 3px solid #fafafa;
+    border-bottom: none;
+    margin: auto;
+}
+
+#stoic-quote-reader p {
+    font-family: sans-serif;
+    font-size: 30px;
+    text-align: center;
+}
+
+#stoic-quote-reader button {
+
+    width: 100%;
+    border: none;
+
+    background-color: #fafafa;
+    color: #5a5a5a;
+
+}
+
+#stoic-quote-reader button:hover {
+    cursor: pointer;
+}
